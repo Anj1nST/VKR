@@ -1,0 +1,47 @@
+$lightColor: #fccc04;
+$darkColor: #273467;
+
+.filter {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: $darkColor;
+    color: $lightColor;
+    font-size: 24px;
+    font-weight: 600;
+
+    .dataSelect__faculty {
+        margin: 20px 0px;
+    }
+
+    .dataSelect__faculty, .dataSelect__speciality, .dataSelect__group {
+        display: flex;
+        justify-content: space-evenly;
+
+        span {
+            width: 200px;
+        }
+
+        select {
+            width: 400px;
+        }
+    }
+
+    .dataSelect__speciality {
+        margin: 5px 0px;
+    }
+
+    .dataSelect__group {
+        margin-bottom: 20px;
+    }
+
+    .filter__filterButton {
+        height: 40px;
+        max-width: 200px;
+        align-self: center;
+        background-color: $lightColor;
+        color: $darkColor;
+        border: none;
+        font-weight: 600;
+    }
+}

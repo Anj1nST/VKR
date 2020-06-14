@@ -1,0 +1,25 @@
+$darkColor: #273467;
+
+.schedule__divider {
+	width: 80%;
+	height: 3px;
+	background-color: $darkColor;
+	justify-self: center;
+	align-self: center;
+}
+
+.schedule__row {
+	display: flex;
+	justify-content: space-evenly;
+
+	.scheduleRowCell {
+		display: flex;
+		justify-content: space-evenly;
+		width: 100%;
+	}
+
+	p {
+		word-wrap: break-word;
+		overflow-wrap: break-word;
+	}
+}
